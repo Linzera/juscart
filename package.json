@@ -1,0 +1,43 @@
+{
+  "name": "jus-cart",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "es6-symbol": "^3.1.1",
+    "graphql": "^14.2.0",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-apollo": "^2.5.3",
+    "react-native": "0.59.2",
+    "react-native-awesome-alerts": "^1.2.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-navigation": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.10",
+    "@types/react-native": "^0.57.42",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3",
+    "typescript": "^3.3.4000"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
